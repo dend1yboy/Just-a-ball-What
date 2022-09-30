@@ -5,7 +5,7 @@ import random
 
 @loader.tds
 class TrySampMod(loader.Module):
-    strings = {"name": "TrySamp"}
+    strings = {"name": "Ball by dend1y"}
 
     async def trycmd(self, message: Message):
         tryrandom = random.choice(["Всё возможно", "Да", "Определённо", "Точно нет."])
